@@ -1,0 +1,31 @@
+<!DOCTYPE=html lang="en">
+
+<html>
+<head> 
+<title>Vocaloid</title> </head>
+  <body>   
+    <div id="test1" style="visibility:visible">Hello, my name is Sean</div>
+    <div id="test2" style="visibility:hidden">Bathroom where?</div>
+    <div id="test3" style="visibility:hidden">Help!!!</div>
+    <div id="test4" style="visibility:hidden">I love you</div>
+    <div id="test5" style="visibility:hidden">Do you want to go to the movies?</div>
+    <div id="test6" style="visibility:hidden">Thank you and Goodbye</div> 
+
+    <script language = "javascript" type="text/javascript" src="static/js/jquery-1.11.2.min.js"></script>
+    <script src="static/js/jquery.textonscreen.js"></script>
+
+    <form action="/gvoice" method="GET">
+	<input type="radio" name="lang" value="ch" checked>Chinese
+	<br>
+	<input type="radio" name="lang" value="tm">Tamil
+	<br>
+	<input type="radio" name="lang" value="ml">Malay
+	<br><br>
+	<input type="submit" value="Translate!">
+	</form>
+   
+
+  </body>
+
+</html>
+
